@@ -80,7 +80,6 @@ def eliminar_producto(productos):
 
     for i in range(len(productos)):
         if productos[i][0] == nombre:
-            productos.pop(i)
             input("Producto eliminado! <ENTER>")
             return
 
@@ -110,5 +109,6 @@ while True:
 
     else:
         input("Opcion invalida <ENTER>")
+
 
 print("\nAdios!")
